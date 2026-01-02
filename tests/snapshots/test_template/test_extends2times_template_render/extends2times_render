@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Double Extended Page</title>
+</head>
+<body>
+    <header>
+        
+    <h1>Site Header</h1>
+    
+    <h2>Sub Title</h2>
+
+
+    </header>
+    <main>
+        
+    <div class="content">
+        
+    <p>Main content here</p>
+    
+    <p>Extra: Extra info</p>
+    
+
+    </div>
+
+    </main>
+    <footer>
+        
+    <p>Copyright 2023</p>
+
+    </footer>
+</body>
+</html>

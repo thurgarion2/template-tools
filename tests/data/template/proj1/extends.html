@@ -1,0 +1,23 @@
+{% extends "parent.html" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block header %}
+    {% set header_msg = "Welcome" %}
+    <h1>{{ header_msg }} {{ user }}</h1>
+{% endblock %}
+
+{% block content %}
+    <p>{{ message }}</p>
+    {% if show_list %}
+    <ul>
+    {% for item in list_items %}
+        <li>{{ item.upper() }}</li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+{% endblock %}
+
+{% block footer %}
+    <p>Footer: {{ year }}</p>
+{% endblock %}

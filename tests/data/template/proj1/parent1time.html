@@ -1,0 +1,16 @@
+{% extends "parent.html" %}
+
+{% block header %}
+    <h1>Site Header</h1>
+    {% block subheader %}Subheader{% endblock %}
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        {% block subcontent %}Subcontent{% endblock %}
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <p>Copyright {{ year }}</p>
+{% endblock %}

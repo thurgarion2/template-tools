@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    {% set greeting = "Hello" %}
+    {{ greeting }} {{ name.upper() }}!
+    <p>Age: {{ age + 1 }}</p>
+    {% if age > 18 %}
+    <p>You are an adult.</p>
+    {% else %}
+    <p>You are a minor.</p>
+    {% endif %}
+    <ul>
+    {% for item in items %}
+        <li>{{ item }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

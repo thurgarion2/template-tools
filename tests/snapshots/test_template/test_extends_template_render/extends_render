@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Extended Page</title>
+</head>
+<body>
+    <header>
+        
+    
+    <h1>Welcome Bob</h1>
+
+    </header>
+    <main>
+        
+    <p>Welcome to the site</p>
+    
+    <ul>
+    
+        <li>ITEM1</li>
+    
+        <li>ITEM2</li>
+    
+    </ul>
+    
+
+    </main>
+    <footer>
+        
+    <p>Footer: 2023</p>
+
+    </footer>
+</body>
+</html>

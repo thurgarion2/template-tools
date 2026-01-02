@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Page</title>
+</head>
+<body>
+    
+    Hello ALICE!
+    <p>Age: 26</p>
+    
+    <p>You are an adult.</p>
+    
+    <ul>
+    
+        <li>apple</li>
+    
+        <li>banana</li>
+    
+        <li>cherry</li>
+    
+    </ul>
+</body>
+</html>

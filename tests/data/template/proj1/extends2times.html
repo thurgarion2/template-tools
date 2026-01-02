@@ -1,0 +1,14 @@
+{% extends "parent1time.html" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block subheader %}
+    <h2>{{ subtitle }}</h2>
+{% endblock %}
+
+{% block subcontent %}
+    <p>{{ content }}</p>
+    {% if show_extra %}
+    <p>Extra: {{ extra }}</p>
+    {% endif %}
+{% endblock %}
